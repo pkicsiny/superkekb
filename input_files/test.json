@@ -1,0 +1,44 @@
+{
+"fccee":
+{
+    "n_macroparticles": 1e3,
+    "bunch_intensity": 2.3e11,
+    "energy__gev": 182.5 ,
+    "mass__gev": 0.000511,
+    "physemit_x__m": 1.46e-9,
+    "physemit_y__m": 2.9e-12,
+    "sigma_z__m": 2.54e-3,
+    "sigma_delta": 19.2e-4,
+    "betastar_x__m": 1,
+    "betastar_y__m": 1.6e-3,
+    "Qx": 0.108 ,
+    "Qy": 0.175 ,
+    "Qz": 0.0872,
+    "p0c__ev": 182.5e9,
+    "alpha": 0,
+    "phi": 0,
+    "q_b1":1,
+    "q_b2":-1
+},
+"hllhc":
+{
+    "n_macroparticles": 1e3,
+    "bunch_intensity": 2.2e11,
+    "energy__gev": 7e3,
+    "mass__gev": 0.938,
+    "physemit_x__m": 2.68e-10,
+    "physemit_y__m": 2.68e-10,
+    "sigma_z__m": 0.08,
+    "sigma_delta": 1e-4,
+    "betastar_x__m": 1,
+    "betastar_y__m": 1,
+    "Qx": 0.31 ,
+    "Qy": 0.32 ,
+    "Qz": 0.31,
+    "p0c__ev": 7000e9,
+    "alpha": 0,
+    "phi": 0,
+    "q_b1":1,
+    "q_b2":1
+}
+}
