@@ -1,1 +1,7 @@
+BBWS output file formats: 
+1)  fort.10: i_turn,<x>,<y>,<z>,<xx>,<xy>,<xz>,<yy>,<yz>,<zz>,lum_i_turn,<x>_e,<y>_e
+(note: _e: strong beam);
+2) fort.13: nux,nuy,lum_average;
+3) fort.18: i_turn,<xx>=sigma_x^2,<yy>=sigma_y^2,lum(averaged over itmon turns) .
+4) fort.f100: nu_x, nu_y, lum_averaged, <x*x>, <p_x*p_x>, <y*y>, <p_y*p_y>, <z*z>, <p_z*p_z>
 
