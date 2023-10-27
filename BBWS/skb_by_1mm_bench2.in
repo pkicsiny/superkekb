@@ -15,10 +15,10 @@
            0.,0.,0.0e-3,0.
  &END
  &s_beam 
-    emass=510999.06, rne=5.e10, Ee=7.00729e9 
+    emass=510999.06, rne=3.579e10, Ee=7.00729e9 
  &end
  &w_beam 
-    pmass=510999.06, rnp=6.25e10, Ep=4.0e9 
+    pmass=510999.06, rnp=4.459e10, Ep=4.0e9 
  &end
  &ip
     xangle=0.0415
