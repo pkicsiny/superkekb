@@ -1,0 +1,42 @@
+ &s_ring
+    circumfh=3016.315, emxh=4.6e-9, emyh=35.e-12, emzh=3.1824e-6,
+    dmpxh=1.736E-4, dmpyh=1.736E-4, dmpzh=3.4706E-4,
+    twissh=0., 0.06, 45.532, 0., 0.001, 43.572, 0., 8.007, 0.027,
+           0.,0.,0.,0.,
+           0.,0.,0.,0.,
+           0.,0.,0.0e-3,0.
+ &END
+ &w_ring
+    circumfl=3016.315, emxl=4.0e-9, emyl=20.e-12, emzl=3.4625e-6,
+    dmpxl=2.203E-4, dmpyl=2.203E-4, dmpzl=4.4033E-4,
+    twissl=0., 0.08, 44.545, 0., 0.001, 46.589, 0., 6.11, 0.023,
+           0.,0.,0.,0.,
+           0.,0.,0.,0.,
+           0.,0.,0.0e-3,0.
+ &END
+ &s_beam 
+    emass=510999.06, rne=3.579e10, Ee=7.00729e9 
+ &end
+ &w_beam 
+    pmass=510999.06, rnp=4.459e10, Ep=4.0e9 
+ &end
+ &ip
+    xangle=0.0415
+    cwl=0.,0.,0.,0.,0.,0.,
+        0.,0.,0.,0.,0.,0.,
+        0.,0.,0.,0.,0.,0.,
+    orbe=0., 0., 0., 0., 0., 0.
+ &end
+ &wake_in
+    cRx=0.e15, fRx=200.e9, Qx=1.,cRy=0.e15, fRy=200.e9, Qy=1.,
+    Zwrange=0.05, niz=2048, 
+       bxmean=10., bymean=67., fWk='WakeZXY_SuperKEKB_LER_2021c_physics_woCSR_KO.dat',
+       rwake=1.,0.,0.,0.,0.
+ &end
+ &model 
+    nxscan=10, nyscan=1, dnxscan=0.0005, dnyscan=0.002,
+    ne=1, np=100000, nturn=20000, iseed=17,
+    nslice=200, itmon=1000, itaccum=15000, rad=.true.,
+    axm=10., aym=40., ngrid=256,
+    wkcalc=1
+ &end
