@@ -1,0 +1,15 @@
+Data formats:
+
+VFP_GW+RW_Ishibashi_version2.2_Benchmark_Xsuite_Haissinski_Solution.dat
+I[Normalized current I (pC/V)]  Np[Bunch population]  Ib[Bunch current, mA]  qcm[Center of mass/sigz0]  sigz[rms bunch length/sigz0] qpeak[peak position/sigz0]  Zeff[Effective impedance]
+Zeff refers to my definition
+
+MWI_20211222_LER_TMCI_Study_GW+RW_Ishibashi_version2.2_Benchmark_Xsuite.dat
+Ib[Bunch current, mA]  qtot[total charge/q0] zcm[Center of mass]  sigz[rms bunch length/sigz0] pcm[Momentum center of mass]  sigpz[Energy deviation/sigpz0]
+
+MWI_20211222_LER_TMCI_Study_GW+RW_Ishibashi_version2.2_Benchmark_Xsuite_normalized.dat
+Ib[Bunch current, mA]  qtot[total charge/q0] qcm[Center of mass/sigz0]  qrms[rms bunch length/sigz0] pcm[Momentum center of mass/sigpz0]  prms[Energy deviation/sigpz0]
+
+Haissinski_Solution_20211222_LER_TMCI_Study_GW+RW_Ishibashi_version2.2_Benchmark_Xsuite_*.dat
+Haissinski distribution at given bunch current
+z[mm]  Density[normalized]
