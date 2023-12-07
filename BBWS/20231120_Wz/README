@@ -1,1 +1,4 @@
 BBWS simulations with wakefields
+
+Data format for skb_by_1mm_bench3_Wz_noBB_rnp_np1e5.f100_all:
+Np(Bunch population)  <x^2>  <px^2>  <y^2>  <py^2>  <z^2>  <pz^2>  <x>  <px>  <y>  <py>  <z>  <pz>
