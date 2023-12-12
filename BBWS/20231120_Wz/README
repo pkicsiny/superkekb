@@ -2,3 +2,27 @@ BBWS simulations with wakefields
 
 Data format for skb_by_1mm_bench3_Wz_noBB_rnp_np1e5.f100_all:
 Np(Bunch population)  <x^2>  <px^2>  <y^2>  <py^2>  <z^2>  <pz^2>  <x>  <px>  <y>  <py>  <z>  <pz>
+
+Data format for *nuxscan.f100_all
+nu_x  nu_y  Luminosity <x^2>  <px^2>  <y^2>  <py^2>  <z^2>  <pz^2>
+Note: <u^2> is the standard deviation; no need to subtract <u>
+
+Data format for *brad*nuxscan.f100_all
+Column 1-3: nu_x  nu_y  Luminosity 
+Column 4-9 (standard deviation): <x^2>  <px^2>  <y^2>  <py^2>  <z^2>  <pz^2> 
+Column 10-15 (center of mass): <x>  <px>  <y>  <py>  <z>  <pz> 
+Column 16-18 (tilt): <x*px> <y*py> <z*pz> 
+Column 19-22 (x-y couplings): <x*y> <x*py> <px*y> <px*py> 
+Column 23-26 (x-z couplings): <x*z> <x*pz> <px*z> <px*pz> 
+Column 27-30 (y-z couplings): <y*z> <y*pz> 
+
+
+Reference:
+BBWS source code:
+     write(100,'(F10.6,F10.6,(28E13.5))') twissl(3),twissl(6),averlum, &
+       abenvp(7),abenvp(14),abenvp(21),abenvp(28),abenvp(35),abenvp(42), &
+       abenvp(1),abenvp(2),abenvp(3),abenvp(4),abenvp(5),abenvp(6), &
+       abenvp(8),abenvp(22),abenvp(36), &
+       abenvp(9),abenvp(10),abenvp(15),abenvp(16), &
+       abenvp(11),abenvp(12),abenvp(17),abenvp(18), &
+       abenvp(23),abenvp(24),abenvp(29),abenvp(30)
